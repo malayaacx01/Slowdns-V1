@@ -12,8 +12,8 @@ subsl=$(</dev/urandom tr -dc a-x0-9 | head -c5)
 DOMAIN=$(cat /etc/xray/domain)
 SUB_DOMAIN=${sub}.$DOMAIN
 NS_DOMAIN=ns-$DOMAIN
-CF_ID=KhaiVpn767@gmail.com
-CF_KEY=dd2c5e0313f122b3c1833471d469b1025f492
+CF_ID=zulfadlizulkifli10@yahoo.com
+CF_KEY=43cddae709f6a2a9a84ef9ad947188a8f02d4
 echo "IP=""$SUB_DOMAIN" >> /var/lib/crot/subdomain.conf
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
