@@ -20,7 +20,7 @@ echo -e "\e[33m--------=[ Script-By-Malayaacx01 - Shop. ]=---------\033[0m";
 echo -e "\e[33m----------------------------------------\033[0m";
 echo -e "\e[33m--------=[ SlowDNS-NameServer ]=--------\033[0m";
 echo -e "\e[33m----------------------------------------\033[0m";
-read -rp "Masukkan NameSerVer:" -e sub
+read -rp "Masukkan NameServer:" -e sub
 SUB_DOMAIN=${sub}
 NS_DOMAIN=${SUB_DOMAIN}
 echo $NS_DOMAIN > /root/nsdomain
