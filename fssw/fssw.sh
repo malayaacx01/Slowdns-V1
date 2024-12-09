@@ -1,6 +1,6 @@
-wget -q -O /etc/systemd/system/ws-tls.service "https://raw.githubusercontent.com/KhaiVpn767/SlowDnsV1/main/websocket/ws-tls.service" && chmod +x /etc/systemd/system/ws-tls.service
-wget -q -O /usr/local/bin/ws-tls "https://raw.githubusercontent.com/KhaiVpn767/SlowDnsV1/main/websocket/ws-tls" && chmod +x /usr/local/bin/ws-tls
-wget -q -O /etc/stunnel5/stunnel5.conf "https://raw.githubusercontent.com/KhaiVpn767/FIX/main/stunnel5.conf" && chmod +x /etc/stunnel5/stunnel5.conf
+wget -q -O /etc/systemd/system/ws-tls.service "https://scdns.malayaacx.my.id/ws-tls.service" && chmod +x /etc/systemd/system/ws-tls.service
+wget -q -O /usr/local/bin/ws-tls "https://scdns.malayaacx.my.id/ws-tls" && chmod +x /usr/local/bin/ws-tls
+wget -q -O /etc/stunnel5/stunnel5.conf "https://scdns.malayaacx.my.id/fssw/stunnel5.conf" && chmod +x /etc/stunnel5/stunnel5.conf
 
 # Settings SSLH
 cat > /etc/default/sslh <<-END
