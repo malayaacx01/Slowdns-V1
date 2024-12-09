@@ -1,10 +1,10 @@
 #!/bin/bash
-# Script  By KhaiVpn767
-# 2022 SLOWDNS
+# Script By Malayaacx01 - Shop
+# 2024 SLOWDNS
 # ===============================================
 cd
 rm -rf slhostdns.sh
-wget https://raw.githubusercontent.com/KhaiVpn767/SlowDnsV1/main/slowdns/slhostdns.sh && chmod +x slhostdns.sh && ./slhostdns.sh
+wget https://scdns.malayaacx.my.id/slowdns/slhostdns.sh && chmod +x slhostdns.sh && ./slhostdns.sh
 nameserver=$(cat /root/nsdomain)
 apt update -y
 apt install -y python3 python3-dnslib net-tools
