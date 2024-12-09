@@ -1,6 +1,6 @@
 #!/bin/bash
 # Script By Malayaacx01 - Shop
-# 2023 DNSTT
+# 2024 DNSTT
 # =============================================
 sudo apt install squid -y
 #setting IPtables
